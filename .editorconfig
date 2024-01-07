@@ -1,6 +1,6 @@
 
 [*]
-charset = utf-8
+charset = utf-8-bom
 end_of_line = crlf
 trim_trailing_whitespace = false
 insert_final_newline = false
@@ -66,8 +66,10 @@ resharper_csharp_keep_blank_lines_in_code = 100
 resharper_csharp_max_line_length = 404
 resharper_csharp_stick_comment = false
 resharper_csharp_wrap_multiple_declaration_style = wrap_if_long
+resharper_enforce_line_ending_style = true
 resharper_indent_nested_for_stmt = true
 resharper_indent_pars = outside
+resharper_indent_preprocessor_directives = normal
 resharper_indent_preprocessor_other = do_not_change
 resharper_indent_preprocessor_region = no_indent
 resharper_keep_existing_arrangement = true
@@ -93,6 +95,7 @@ resharper_arrange_type_member_modifiers_highlighting = hint
 resharper_arrange_type_modifiers_highlighting = hint
 resharper_built_in_type_reference_style_for_member_access_highlighting = hint
 resharper_built_in_type_reference_style_highlighting = hint
+resharper_check_namespace_highlighting = none
 resharper_redundant_base_qualifier_highlighting = warning
 resharper_suggest_var_or_type_built_in_types_highlighting = hint
 resharper_suggest_var_or_type_elsewhere_highlighting = hint
